@@ -1,0 +1,5 @@
+  2           0 LOAD_CONST               0 (<code object magic_calculation at 0x7fa4216818b0, file "102-magic_calculation.py", line 2>)
+              3 MAKE_FUNCTION            0
+              6 STORE_NAME               0 (magic_calculation)
+              9 LOAD_CONST               1 (None)
+             12 RETURN_VALUE        

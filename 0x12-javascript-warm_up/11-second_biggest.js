@@ -6,6 +6,7 @@ if (process.argv.length <= 3) {
 } else {
   const args = process.argv.map(Number)
     .slice(2, process.argv.length)
-    .sort((a, b) => a - b);// this is the algorithm
-  console.log(args[args.length - 2]);
+    .sort((a, b) => a - b);// this is the algorithm sorts in ascending order.
+    // a-b is a - is a comparison operator means.
+  console.log(args[args.length - 2]);// prints second to last argument.
 }

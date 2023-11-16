@@ -16,6 +16,6 @@ class Rectangle {
       console.log();
     }
   }
-}
+};
 
 module.exports = Rectangle;

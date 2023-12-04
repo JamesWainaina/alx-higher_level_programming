@@ -2,6 +2,7 @@
 """ Write a function that finds a peak in a list of unsorted integers. """
 
 def find_peak(list_of_integers):
+    
     """ function finds the peak of elements """
     n = len(list_of_integers)
     nums = list_of_integers

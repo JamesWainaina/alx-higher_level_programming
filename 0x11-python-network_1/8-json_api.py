@@ -23,7 +23,7 @@ if __name__ == "__main__":
     else:
         data = {"q": argv[1]}
 
-    req = requests.post('http://0.0.0.0:5000/search_user', data = data)
+    req = requests.post('http://0.0.0.0:5000/search_user', data=data)
     try:
         result = req.json()
         r_id = result.get('id')
